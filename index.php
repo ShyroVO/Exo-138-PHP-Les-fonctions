@@ -2,21 +2,24 @@
 
 // Premiere ligne
 
-{
+function maFonction (){
     echo "Hello World!";
 }
 
 //Deuxieme ligne
 
-
+maFonction();
 
 //Troisieme ligne
 
 function maFonctionParam($fname, $lname) {
-    echo ;
+    echo $fname;
+    return $lname;
 }
 
+maFonctionParam('truc', 'trucDeux');
 
+?>
 
 
 
