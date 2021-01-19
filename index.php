@@ -17,7 +17,7 @@ function maFonctionParam($fname, $lname) {
     return $lname;
 }
 
-maFonctionParam('truc', 'trucDeux');
+maFonctionParam('truc', 2);
 
 ?>
 
